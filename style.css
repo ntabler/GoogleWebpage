@@ -1,0 +1,197 @@
+/* Top Nav Style */
+
+.about a
+    {
+        font-size: 13px;
+        font-family: arial,sans-serif;
+        color: #222;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+#topnav-left
+    {
+        font-size: 14px;
+        font-family: arial,sans-serif;
+        color: #222;
+        text-decoration: none;
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+
+
+#Gmail
+    {  
+        position: absolute;
+        right: 190px;
+        font-size: 14px;
+        font-family: arial,sans-serif;
+        color: #222;
+        text-decoration: none;
+        padding: 5 5 5 5;
+    }
+
+#Images
+    {
+        position: absolute;
+        right: 125px;
+        font-size: 14px;
+        font-family: arial,sans-serif;
+        color: #222;
+        text-decoration: none;
+        padding: 5 5 5 5;
+    }
+
+#Products
+    {
+        position: absolute;
+        right: 80px;
+        margin-top: -12px;
+        width: 16px;
+    }
+
+#Logo
+    {
+        position: absolute;
+        right: 25px;
+        width: 30px;
+        border-radius: 50%;
+        top: 10px;
+    }
+
+
+/* Google Logo, Searchbar and buttons */
+
+.center-logo
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 100px;
+        margin-top: 125px;
+        padding: 100px;
+    }
+
+
+.center-searchbar
+    {
+        overflow: hidden;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -70px;
+        width: 500px;
+    }
+
+#search-bar
+    {
+        border: 1px solid rgba(199, 186, 186, 0.5);
+        border-radius:200em;
+        box-sizing: border-box;
+        border-width: 1px;
+        height: 40px;
+        width: 500px;
+        text-indent: 35px;
+    }
+
+#maginify-sprite
+    {
+        position: relative;
+        bottom: 45px;
+        margin-left: 15px;
+        object-position: 0px 17px;
+        width: 20px;
+    }
+
+.center-buttons
+    {
+        overflow: hidden;
+        display: block;
+        margin-left: auto;
+        width: 500px;
+        margin-right: auto;
+    }
+
+
+#search-button
+    {
+        border: 1px solid rgba(250, 245, 245, 0.5);
+        border-width: thin;
+        position: relative;
+        left: 150px;
+        height: 35px;
+        background-color: #f8f9fa;
+        border-radius: 4px;
+        border-style: solid;
+        color: #070707;
+        font-size: 14px;
+        opacity: 70%;
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 4px;
+        border-image-width: 1; 
+    }
+
+#feeling-lucky
+    {
+        border: 1px solid rgba(250, 245, 245, 0.5);
+        position: relative;
+        left: 180px;
+        margin-right: auto;
+        height: 35px;
+        background-color: #f8f9fa;
+        border-radius: 4px;
+        border-style: solid;
+        color: #070707;
+        font-size: 14px;
+        opacity: 70%;
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 4px;
+        border-image-width: 1;
+        border-width: thin;
+    }
+
+/* Bottom Nav */
+
+/*Used this to reset the browser default settings to fill in bottom nav background color completly */
+body,html
+    {
+        margin:0;
+        padding:0;
+    }
+
+.bottom-nav
+    {
+        overflow: hidden;
+        background-color: rgb(242, 242, 242);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }   
+.navbar a 
+    {
+      
+        float: left;
+        display: block;
+        color: #222;
+        font-family: arial,sans-serif;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    #Navebar-centered{
+        width: 62%;
+    
+    }
+
+    #navbar-right
+    {
+        float: right;
+        display: block;
+    }
